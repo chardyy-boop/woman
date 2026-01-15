@@ -378,6 +378,376 @@ const questions = [
             { text: "0.70", prefix: "d" }
         ],
         answer: "a"
+    },
+    {
+        question: "In the curve y = 3 cos (1/2) x, what is the amplitude and period?",
+        choices: [
+            { text: "3, 3π/2", prefix: "a" },
+            { text: "3,4π", prefix: "b" },
+            { text: "3, 2π", prefix: "c" },
+            { text: "3, π/2", prefix: "d" }
+        ],
+        answer: "b"
+    },
+    {
+        question: "A Man invested Php 50,00. Part of it he put in an oil stock from which he hoped to receive a 20% return per year. The rest he invested in a bank stock which was paying 6% per year. If he received Php 400 more the first year from the bank stock than from the oil stock, how much did the invest in the oil stock?",
+        choices: [
+            { text: "10,000", prefix: "a" },
+            { text: "5,000", prefix: "b" },
+            { text: "2,000", prefix: "c" },
+            { text: "30,000", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "In the non-generate conic 3x^2 + 6xy + 5y^2 – x +y = 0",
+        choices: [
+            { text: "Parabola", prefix: "a" },
+            { text: "Ellipse", prefix: "b" },
+            { text: "Hyperbola", prefix: "c" },
+            { text: "Circle", prefix: "d" }
+        ],
+        answer: "b"
+    },
+    {
+        question: "A baseball diamond is a square with sides of length 90ft. A batter hits the ball and runs to first base with a speed of 21 ft/s. At what rate is his distance from the second base changing when he is halfway to first base?",
+        choices: [
+            { text: "10.28 ft/s", prefix: "a" },
+            { text: "7.56 ft/s", prefix: "b" },
+            { text: "8.92 ft/s", prefix: "c" },
+            { text: "12. 28 ft/s", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "The dimensions of a rectangle are continuously changing. The width increases at the rate of 3 in/2 while the length decreases at the rate of 2 in/s. At one instant the rectangle is a 20-in square. How fast is this area changing 3 seconds later?",
+        choices: [
+            { text: "-16", prefix: "a" },
+            { text: "-32", prefix: "b" },
+            { text: "16", prefix: "c" },
+            { text: "32", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A through filled with water is 2m long and has a cross section in the shape of an isosceles trapezoid 30 cm wide at the bottom, 60 cm wide at the top, and height of 50 cm. If the through leaks water at the rate of 2000 cm^3 / min, how fast is the water level falling when the water is 20 cm deep?",
+        choices: [
+            { text: "-5/21", prefix: "a" },
+            { text: "-3/23", prefix: "b" },
+            { text: "-15/32", prefix: "c" },
+            { text: "-2/3", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "The height (in feet) at any time t (in seconds) of a projectile thrown vertically is: h(t) = -16t^2 + 256t. What is the velocity when it reached the ground?",
+        choices: [
+            { text: "16s", prefix: "a" },
+            { text: "18s", prefix: "b" },
+            { text: "12s", prefix: "c" },
+            { text: "10s", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "The height (in feet) at any time t (in seconds) of projectile thrown vertically is: h(t) = -16t^2 + 256t. What is the velocity when it reached the ground?",
+        choices: [
+            { text: "-256", prefix: "a" },
+            { text: "312", prefix: "b" },
+            { text: "352", prefix: "c" },
+            { text: "0", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "The charge in coulombs that passes through a wire after 1 seconds is given by the function Q(t) = t^3 - 2t^2 + 5t +2 determine the average current during the first two seconds",
+        choices: [
+            { text: "5A", prefix: "a" },
+            { text: "3A", prefix: "b" },
+            { text: "2A", prefix: "c" },
+            { text: "10A", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Water is being pumped into the conical tank at the rate of 100 ft^3/min. the height of the tank is 20ft and its radius is 5ft. how fast the water level rising when the water height is 10 ft?",
+        choices: [
+            { text: "16/π", prefix: "a" },
+            { text: "12/π", prefix: "b" },
+            { text: "2π", prefix: "c" },
+            { text: "10π", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Change the equation y=x from rectangular to polar coordinates",
+        choices: [
+            { text: "π/4", prefix: "a" },
+            { text: "π/3", prefix: "b" },
+            { text: "π", prefix: "c" },
+            { text: "π/2", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A runner and his trainer are standing together on a circular track of radius 100 meters. When the trainer gives a signal, the runner starts to run around the track at a speed of 10 m/s. how fast is the distance between the runner and the trainer increasing when the runner has run ¼ of the way around the track?",
+        choices: [
+            { text: "5√2", prefix: "a" },
+            { text: "3√2", prefix: "b" },
+            { text: "2√2", prefix: "c" },
+            { text: "7√2", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the point on the graph y = x^2 + 1 that is closest to the point (3, 1).",
+        choices: [
+            { text: "(1, 3)", prefix: "a" },
+            { text: "(2, 1)", prefix: "b" },
+            { text: "(1, 2)", prefix: "c" },
+            { text: "(1, 4)", prefix: "d" }
+        ],
+        answer: "c"
+    },
+    {
+        question: "What is the polar equation of the circle with the center at pole containing the given point (1,1), rectangular coordinates?",
+        choices: [
+            { text: "r = 1", prefix: "a" },
+            { text: "r = ½", prefix: "b" },
+            { text: "r= √2", prefix: "c" },
+            { text: "r = 2", prefix: "d" }
+        ],
+        answer: "c"
+    },
+    {
+        question: "An elevator carries two passengers from the first to the second floor, where an additional passenger enters Two people get out at the third floor and the remaining person rides to the fourth floor Find the work in ft-lb required to lift the passengers if each passenger weighs 150 ft-lb and the floors are 12 ft apart.",
+        choices: [
+            { text: "12800", prefix: "a" },
+            { text: "20800", prefix: "b" },
+            { text: "10800", prefix: "c" },
+            { text: "20800", prefix: "d" } // Duplicated based on user input, keeping as is
+        ],
+        answer: "c"
+    },
+    {
+        question: "An agent has 8 master keys to open several homes. Only 1 master key will open any house. If 40% of that the agent can get into a specific home if the agent selects 3 master keys at random before leaving the office?",
+        choices: [
+            { text: "1/8", prefix: "a" },
+            { text: "1/4", prefix: "b" },
+            { text: "5/8", prefix: "c" },
+            { text: "1/4", prefix: "d" } // Duplicated based on user input
+        ],
+        answer: "c"
+    },
+    {
+        question: "Evaluate the following: [(cos 15 deg + I sin 15)^3]",
+        choices: [
+            { text: "(1/3 + √2i)", prefix: "a" },
+            { text: "√2/2 + √2 / 2i", prefix: "b" },
+            { text: "√2 + √2 + √2 i", prefix: "c" },
+            { text: "√2 + i", prefix: "d" }
+        ],
+        answer: "b"
+    },
+    {
+        question: "A box contains 2 white socks and 2 blue socks. Two socks are drawn at random. Find the probability p they are a match (same color).",
+        choices: [
+            { text: "1/3", prefix: "a" },
+            { text: "1/8", prefix: "b" },
+            { text: "1/4", prefix: "c" },
+            { text: "1/2", prefix: "d" }
+        ],
+        answer: "c" // User Ans: C -> 1/4? Wait, C is 1/4.
+    },
+    {
+        question: "A long rectangular sheet of metal, 12 inches wide, is to be made into a gutter by turning up 2 sides so that they are perpendicular to the sheet. How many inches should be turned up to give the gutter its greatest capacity?",
+        choices: [
+            { text: "3", prefix: "a" },
+            { text: "1/8", prefix: "b" },
+            { text: "1/4", prefix: "c" },
+            { text: "1/2", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Revolve the area bounded by a pentagon with vertices (1,0), (2,2), (0,4), (-2,2), (-1,0) about the axis and find volume generated.",
+        choices: [
+            { text: "104 π / 3", prefix: "a" },
+            { text: "124 π / 3", prefix: "b" },
+            { text: "114 π", prefix: "c" },
+            { text: "135 π", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Two cars headed to a town. One is 50 km ahead of the other on the same road. The one in front is traveling 60 kph while the second car traveling 70 kph. How many kms did the second car travel before overtaking the first car?",
+        choices: [
+            { text: "350 km", prefix: "a" },
+            { text: "254 km", prefix: "b" },
+            { text: "312 km", prefix: "c" },
+            { text: "300 km", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "The proportions of blood phenotypes A, B, AB and O in the population of all Caucasians in the US are reported as 0.41, 0.10, 0.04 and 0.45, respectively. If the Caucasian is chosen randomly from the population, what is the probability that he or she will have either type A or type AB blood?",
+        choices: [
+            { text: "0.45", prefix: "a" },
+            { text: "0.35", prefix: "b" },
+            { text: "0.15", prefix: "c" },
+            { text: "0.10", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the limit of [(-1 to the nth power) (2 to the –nth power)] as n approaches infinity",
+        choices: [
+            { text: "0", prefix: "a" },
+            { text: "1", prefix: "b" },
+            { text: "infinity", prefix: "c" },
+            { text: "undefined", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "In the curve y = tan 3x, what is its period?",
+        choices: [
+            { text: "π/3", prefix: "a" },
+            { text: "1", prefix: "b" },
+            { text: "infinity", prefix: "c" },
+            { text: "undefined", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "What number will be greater its square by the minimum amount?",
+        choices: [
+            { text: "π/3", prefix: "a" },
+            { text: "1/3", prefix: "b" },
+            { text: "infinity", prefix: "c" },
+            { text: "undefined", prefix: "d" }
+        ],
+        answer: "b"
+    },
+    {
+        question: "Find the centroid along the y –axis of the solid formed by revolving about the y – axis the first quadrant area bounded by the parabola (y squared) = 4ax and the lines y = 0 and x =a",
+        choices: [
+            { text: "5a/6", prefix: "a" },
+            { text: "3a/5", prefix: "b" },
+            { text: "2a/7", prefix: "c" },
+            { text: "3a/5", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the equation of the bisector of the pair of acute angles formed by the lines 4x+2y = 9 and 2x–y = 8",
+        choices: [
+            { text: "8x – 25 = 0", prefix: "a" },
+            { text: "4x – 13 = 0", prefix: "b" },
+            { text: "7x – 17 = 0", prefix: "c" },
+            { text: "4x – 15 = 0", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A kite is flying 100 feet above the ground, moving in a strictly horizontal direction at a rate of 10 ft/s. How fast is the angle between the string and the horizontal changing when there is 300 ft of string out?",
+        choices: [
+            { text: "-1/90", prefix: "a" },
+            { text: "-1/70", prefix: "b" },
+            { text: "-3/20", prefix: "c" },
+            { text: "-5/70", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the rectangular coordinates of [ 3 (square root of 2), 45 deg]",
+        choices: [
+            { text: "(3,3)", prefix: "a" },
+            { text: "(2,2)", prefix: "b" },
+            { text: "(1,1)", prefix: "c" },
+            { text: "All of these", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the area bounded by the parabola y = 5 + 2x – x^2 and the chord joining (-2, -3) and (3,2)",
+        choices: [
+            { text: "20.833", prefix: "a" },
+            { text: "30.345", prefix: "b" },
+            { text: "17.432", prefix: "c" },
+            { text: "12.475", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "What is the polar equation of the circle with the given radius a = 3/2 and with center in polar coordinates (3/2, π)?",
+        choices: [
+            { text: "(0,3)", prefix: "a" },
+            { text: "(1,5)", prefix: "b" },
+            { text: "(2,5)", prefix: "c" },
+            { text: "(0,1)", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the pole of the polar line 2x – y = 0 with respect to the conic whose equation is x^3 + 8xy – 2y^2 – 12x + 6y – 9 = 0",
+        choices: [
+            { text: "(0,3)", prefix: "a" },
+            { text: "(1,5)", prefix: "b" },
+            { text: "(2,5)", prefix: "c" },
+            { text: "(0,1)", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find how far an airplane will move in landing, if in t seconds after touching the ground its speed in feet per second is given by the equation V = 180 -18t.",
+        choices: [
+            { text: "900 ft", prefix: "a" },
+            { text: "800 ft", prefix: "b" },
+            { text: "200 ft", prefix: "c" },
+            { text: "150 ft", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Evaluate the expression log 3+ log 2+ 4log7",
+        choices: [
+            { text: "9.58", prefix: "a" },
+            { text: "4.79", prefix: "b" },
+            { text: "3.43", prefix: "c" },
+            { text: "4.16", prefix: "d" }
+        ],
+        answer: "d"
+    },
+    {
+        question: "The sum of an infinite geometric progression is 3 and the common ratio is 1/3. What is the first term?",
+        choices: [
+            { text: "3", prefix: "a" },
+            { text: "2", prefix: "b" },
+            { text: "1", prefix: "c" },
+            { text: "6", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "The value of a machine after t years is V(t) = 100t^2 – 3000t + 20,000 in pesos. At what rate does the machine depreciate after 5 years?",
+        choices: [
+            { text: "-2000", prefix: "a" },
+            { text: "-3000", prefix: "b" },
+            { text: "1500", prefix: "c" },
+            { text: "2350", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "The rate at which a tablet of Vitamin C begins to dissolve depends on the surface area of the tablet. One brand of tablet is 2 cm long and is in the shape of cylinder with the hemispheres of diameter 0.5 cm attached to both ends. A second brand of tablet is to be manufactured in the shape of right circular cylinder of altitude 0.5cm. Find the volume of the tablet in cubic cm.",
+        choices: [
+            { text: "π/8", prefix: "a" },
+            { text: "π/2", prefix: "b" },
+            { text: "π/3", prefix: "c" },
+            { text: "π/ 16", prefix: "d" }
+        ],
+        answer: "a"
     }
 ];
 
