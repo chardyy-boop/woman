@@ -1,0 +1,6 @@
+.footer-msg {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.5;
+    color: var(--text-secondary);
+}
