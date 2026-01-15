@@ -390,6 +390,256 @@ const questions = [
         answer: "b"
     },
     {
+        question: "Find the rate of change of the volume of the sphere with respect to its radius is 5.",
+        choices: [
+            { text: "100 π", prefix: "a" },
+            { text: "200 π", prefix: "b" },
+            { text: "150 π", prefix: "c" },
+            { text: "250 π", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "The dimension of a rectangle is continuously changing. The width increases at the rate of 3 in/s while the length decreases are the rate of 2 in/s. At one instant, the rectangle is a 20 in square. How fast is its area changing 3 seconds later?",
+        choices: [
+            { text: "-16", prefix: "a" },
+            { text: "-24", prefix: "b" },
+            { text: "-32", prefix: "c" },
+            { text: "-45", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A tank is in the form of a frustum of a tight circular cone is filled with oil weighing 50 pounds per cubic foot. If the height of the tank is 10 feet, base radius is 6 ft and the top radius is 4 ft, find the work required in ft-tons to pump oil to a height 10 feet above the tank.",
+        choices: [
+            { text: "-312 ft-tons", prefix: "a" },
+            { text: "-342 ft-tons", prefix: "b" },
+            { text: "-325 ft-tons", prefix: "c" },
+            { text: "-435 ft-tons", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the limit of {[x^3 – 2x +5] / [2x^3 -7]} as approaches infinity",
+        choices: [
+            { text: "1/2", prefix: "a" },
+            { text: "1/3", prefix: "b" },
+            { text: "1/4", prefix: "c" },
+            { text: "1/7", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "In the ellipse x^2 + 3y^2 + 2x – 6y = 0, find the length of the diameter which has a slope of 1.",
+        choices: [
+            { text: "2 √2", prefix: "a" },
+            { text: "3 √3", prefix: "b" },
+            { text: "3 √7", prefix: "c" },
+            { text: "5 √3", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A stock certificate of a mining company guarantees a dividend of P120 at the end of each year for 12 years and a final additional payment at the end of 10 years of P1200. If the money is 12% effective, what is the certificate worth now?",
+        choices: [
+            { text: "951.39", prefix: "a" },
+            { text: "857.54", prefix: "b" },
+            { text: "1095.54", prefix: "c" },
+            { text: "789.45", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the value of x for the given function csc 2x is continuous.",
+        choices: [
+            { text: "1/3 πx", prefix: "a" },
+            { text: "1/3 πx", prefix: "b" }, // Duplicate option in source, keeping as is
+            { text: "1/4 πx", prefix: "c" },
+            { text: "1/7 πx", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the radius of curvature for the curve y = sinx at the point (π/2, 1)",
+        choices: [
+            { text: "1", prefix: "a" },
+            { text: "2", prefix: "b" },
+            { text: "3", prefix: "c" },
+            { text: "4", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the equation of the set of all points equally distant from y –axis and (4,0)",
+        choices: [
+            { text: "y^2 – 8x +16 = 0", prefix: "a" },
+            { text: "x^2 – 8x +16 = 0", prefix: "b" },
+            { text: "y^2 – 10x +2 = 0", prefix: "c" },
+            { text: "x^2 – 5y – 10 = 0", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the equation of all points equally which are twice as far from (4,4) and (1,1).",
+        choices: [
+            { text: "x^2 + y^2= 8", prefix: "a" },
+            { text: "2 x^2 + 3 y^2 = 10", prefix: "b" },
+            { text: "x^2 + y^2 = 100", prefix: "c" },
+            { text: "xy = 4", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the maximum area of a rectangle inscribed in a semi-circle of radius 5 inches if its base lies along the diameter of the semi-circle?",
+        choices: [
+            { text: "25", prefix: "a" },
+            { text: "5", prefix: "b" },
+            { text: "100", prefix: "c" },
+            { text: "35", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the dimensions of the right circular cylinder of maximum volume that can be inscribed in a right circular cone whose radius is 3 inches and whose height is 10 inches?",
+        choices: [
+            { text: "40π / 3", prefix: "a" },
+            { text: "32π / 3", prefix: "b" },
+            { text: "15π / 3", prefix: "c" },
+            { text: "17π / 3", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A television camera is located 5000 ft from the base of a rocket launching pad. The camera is designed to follow vertical path of the rocket. If the rocket’s speed is 500 ft/s when it has risen 2000 ft, how fast is the camera’s angle of elevation changing at this instant?",
+        choices: [
+            { text: "4.94 deg/s", prefix: "a" },
+            { text: "5.48 deg/s", prefix: "b" },
+            { text: "1.25 deg/s", prefix: "c" },
+            { text: "2.35 deg/s", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A painting of height 3 ft hangs on a wall with the bottom of the painting 6 ft above the floor. How far from the wall should Lindsay, whose eyes are 5 ft from the floor stand in order to get the best view of the painting. (The best view occurs when the angle of vision from the bottom to the top of the painting is maximize)?",
+        choices: [
+            { text: "2", prefix: "a" },
+            { text: "3", prefix: "b" },
+            { text: "5", prefix: "c" },
+            { text: "1.7", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A man at point A on the shores of a circular take of radius 1 mile wants to reach point B on the shore diametrically opposite A. If he can row a boat 3 mi/hr and jog 6 mi/hr, at what angle Ѳ with the diameter should he row in order to reach B in the shortest possible time?",
+        choices: [
+            { text: "45.12", prefix: "a" },
+            { text: "35.12", prefix: "b" },
+            { text: "73.23", prefix: "c" },
+            { text: "23.45", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "How much money should a man invest in a bank account paying 8 percent annual interest compounded continuously if he wants to use the money to buy 20,000 equipment in 4yrs.?",
+        choices: [
+            { text: "14,552.98", prefix: "a" },
+            { text: "15,346.76", prefix: "b" },
+            { text: "12,457.45", prefix: "c" },
+            { text: "11,237.45", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "According to Newton’s Law of cooling the temperature of n object changes at a rate proportional to the difference in temperature between the object and the outside medium. If an object whose temperature is 70F is placed in a medium whose temperature is 20⁰ and 40⁰ after 3 minutes, what will its temperature be after 6 minutes?",
+        choices: [
+            { text: "28 deg", prefix: "a" },
+            { text: "38 deg", prefix: "b" },
+            { text: "26 deg", prefix: "c" },
+            { text: "20 deg", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A public health report states that t weeks after the outbreak of a new strain of flu, the number of people in thousands, who will contract the disease is Q(t)=10/1+100e^-1.5t. At what rate did people contract the disease after two weeks?",
+        choices: [
+            { text: "2089", prefix: "a" },
+            { text: "3125", prefix: "b" },
+            { text: "2312", prefix: "c" },
+            { text: "2908", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "Find the volume obtained if the region bounded by y=x^2 and y=2x is rotated about the x-axis",
+        choices: [
+            { text: "64rad/15", prefix: "a" },
+            { text: "32rad/15", prefix: "b" },
+            { text: "16rad/15", prefix: "c" },
+            { text: "12rad/15", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A police car is 20 ft away from a long straight wall. Its beacon, rotating 1 revolution per second, shines a beam of light on the wall. How fast is the beam moving when it is closest to the police car?",
+        choices: [
+            { text: "40rad ft/s", prefix: "a" },
+            { text: "20rad ft/s", prefix: "b" },
+            { text: "30rad ft/s", prefix: "c" },
+            { text: "15rad ft/s", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A rectangle is to be inscribed in the ellipse x^2/200+y^2/50=1.",
+        choices: [
+            { text: "200", prefix: "a" },
+            { text: "100", prefix: "b" },
+            { text: "300", prefix: "c" },
+            { text: "150", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "An open box is to be constructed from a 12x12 inch piece of cardboard by cutting away squares of equal size from the four corners and folding up the sides. Determine the size of the cut out that maximizes the volume of the box?",
+        choices: [
+            { text: "128", prefix: "a" },
+            { text: "231", prefix: "b" },
+            { text: "350", prefix: "c" },
+            { text: "274", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "A factory operator bought a diesel generator set ₱ 10,000 and agreed to pay the dealer uniform sum at the end of each year for 5 yrs at 8% compounded semi-annually, that the final payment will cancel the debt for principal and interest. What is the annual payment?",
+        choices: [
+            { text: "12yrs (2504.50)", prefix: "a" },
+            { text: "10yrs", prefix: "b" },
+            { text: "15yrs", prefix: "c" },
+            { text: "17yrs", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
+        question: "An electric motor has a cash price of ₱ 8000. It can also be bought on installment basis with down payment of ₱ 2000 and with periodic equal payments at the end of every 6 months for 5 yrs. if interest is fixed at 8% compounded semi-annually, how much is each periodic payment?",
+        choices: [
+            { text: "122.56", prefix: "a" },
+            { text: "439.56", prefix: "b" },
+            { text: "739.75", prefix: "c" },
+            { text: "874.32", prefix: "d" }
+        ],
+        answer: "c"
+    },
+    {
+        question: "A ski resort installs two new ski lift at a cost of ₱ 1, 800, 000. The resort expects annual gross revenue to increase ₱ 500, 000 while it incurs an annual expense of ₱ 50, 000 for lift operations and maintenance. What is the payback period?",
+        choices: [
+            { text: "4 years", prefix: "a" },
+            { text: "3 years", prefix: "b" },
+            { text: "2 years", prefix: "c" },
+            { text: "7 years", prefix: "d" }
+        ],
+        answer: "a"
+    },
+    {
         question: "A Man invested Php 50,00. Part of it he put in an oil stock from which he hoped to receive a 20% return per year. The rest he invested in a bank stock which was paying 6% per year. If he received Php 400 more the first year from the bank stock than from the oil stock, how much did the invest in the oil stock?",
         choices: [
             { text: "10,000", prefix: "a" },
@@ -763,14 +1013,34 @@ const resultArea = document.getElementById('result-area');
 
 const startBtn = document.getElementById('start-btn');
 const startMenu = document.getElementById('start-menu');
+const randomizeToggle = document.getElementById('randomize-toggle');
+
+const ALL_QUESTIONS = [...questions]; // Keep a copy of original order
+let currentQuestions = [];
 
 let currentQuestionIndex = 0;
 let score = 0;
 
 startBtn.addEventListener('click', startQuiz);
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
 function startQuiz() {
     startMenu.classList.add('hide');
+
+    // reset/shuffle questions
+    if (randomizeToggle.checked) {
+        currentQuestions = shuffleArray([...ALL_QUESTIONS]);
+    } else {
+        currentQuestions = [...ALL_QUESTIONS];
+    }
+
     currentQuestionIndex = 0;
     score = 0;
     scoreElement.innerText = score;
@@ -782,7 +1052,7 @@ function startQuiz() {
 
 function showQuestion() {
     resetState();
-    let currentQuestion = questions[currentQuestionIndex];
+    let currentQuestion = currentQuestions[currentQuestionIndex];
     questionElement.innerText = `${currentQuestionIndex + 1}. ${currentQuestion.question}`;
 
     currentQuestion.choices.forEach(choice => {
@@ -805,7 +1075,7 @@ function resetState() {
 function selectAnswer(e) {
     const selectedBtn = e.target.closest('.choice-btn');
     const selectedPrefix = selectedBtn.dataset.prefix;
-    const correctPrefix = questions[currentQuestionIndex].answer.toLowerCase();
+    const correctPrefix = currentQuestions[currentQuestionIndex].answer.toLowerCase();
 
     // Disable all buttons
     Array.from(choicesElement.children).forEach(button => {
@@ -823,7 +1093,7 @@ function selectAnswer(e) {
         selectedBtn.classList.add('wrong');
     }
 
-    if (currentQuestionIndex < questions.length - 1) {
+    if (currentQuestionIndex < currentQuestions.length - 1) {
         nextBtn.classList.remove('hide');
     } else {
         nextBtn.innerText = "Finish Quiz";
@@ -844,14 +1114,12 @@ function showScore() {
     quizArea.classList.add('hide');
     resultArea.classList.remove('hide');
     finalScoreElement.innerText = score;
-    totalQuestionsElement.innerText = questions.length;
+    totalQuestionsElement.innerText = currentQuestions.length;
 }
 
 restartBtn.addEventListener('click', () => {
     nextBtn.innerText = "Next Question";
-    // Option: Go back to menu or start quiz directly.
-    // Let's go back to menu for a "Start Over" feel, or just startQuiz.
-    // User requested "menu before taking quiz", doesn't explicitly say after restart.
-    // Standard behavior is usually restart quiz.
-    startQuiz();
+    // Go back to menu to allow changing settings
+    startMenu.classList.remove('hide');
+    resultArea.classList.add('hide');
 });
