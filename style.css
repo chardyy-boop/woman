@@ -129,7 +129,8 @@ h1 {
 }
 
 #next-btn,
-#restart-btn {
+#restart-btn,
+#start-btn {
     background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
     border: none;
     padding: 12px 30px;
@@ -143,7 +144,8 @@ h1 {
 }
 
 #next-btn:hover,
-#restart-btn:hover {
+#restart-btn:hover,
+#start-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(108, 99, 255, 0.6);
 }
