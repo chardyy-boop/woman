@@ -761,10 +761,16 @@ const totalQuestionsElement = document.getElementById('total-questions');
 const quizArea = document.getElementById('quiz-area');
 const resultArea = document.getElementById('result-area');
 
+const startBtn = document.getElementById('start-btn');
+const startMenu = document.getElementById('start-menu');
+
 let currentQuestionIndex = 0;
 let score = 0;
 
+startBtn.addEventListener('click', startQuiz);
+
 function startQuiz() {
+    startMenu.classList.add('hide');
     currentQuestionIndex = 0;
     score = 0;
     scoreElement.innerText = score;
@@ -843,8 +849,9 @@ function showScore() {
 
 restartBtn.addEventListener('click', () => {
     nextBtn.innerText = "Next Question";
+    // Option: Go back to menu or start quiz directly.
+    // Let's go back to menu for a "Start Over" feel, or just startQuiz.
+    // User requested "menu before taking quiz", doesn't explicitly say after restart.
+    // Standard behavior is usually restart quiz.
     startQuiz();
 });
-
-// Initialize
-startQuiz();
